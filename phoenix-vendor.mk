@@ -11,9 +11,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/phoenix/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/a1_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_at.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/apt_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/apt_tw.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/assurance_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/assurance_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/att5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5g_us.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/att5gsa_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5gsa_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/att_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/bell_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bell_ca.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/bluegrass_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bluegrass_us.pb \
@@ -28,11 +31,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/cht_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cht_tw.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/congstar_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/congstar_de.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/consumercellulartmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/consumercellulartmo_us.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/coriolis_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/coriolis_fr.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/cricket5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cricket5g_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/cricket_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cricket_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/cspire_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cspire_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/default.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/default.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/docomo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/docomo_jp.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/docomomvno_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/docomomvno_jp.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/ee_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ee_gb.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/eplus_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/eplus_de.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/esn_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/esn_gb.pb \
@@ -58,12 +63,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/kena_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kena_it.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/koodo_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/koodo_ca.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/kpn_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kpn_nl.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/liberty_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/liberty_pr.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/linemo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/linemo_jp.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/luckymobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/luckymobile_ca.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/metropcs_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/metropcs_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/movistar_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_es.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/o2_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2_de.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/o2postpaid_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2postpaid_gb.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/o2prepaid_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2prepaid_de.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/o2prepaid_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2prepaid_gb.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/onecall_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/onecall_no.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/optus_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/optus_au.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/orange_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_es.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/orange_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_fr.pb \
@@ -73,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/rakuten_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rakuten_jp.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/redpockettmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpockettmo_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/rjio_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rjio_in.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/rogers5g_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers5g_ca.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/rogers_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers_ca.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/sfr_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sfr_fr.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/shaw_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/shaw_ca.pb \
@@ -113,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/tracfoneverizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneverizon_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/tstar_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tstar_tw.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/twm_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/twm_tw.pb \
+    vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/uqmobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uqmobile_jp.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/uscc_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uscc_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/verizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verizon_us.pb \
     vendor/xiaomi/phoenix/proprietary/product/etc/CarrierSettings/verymobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verymobile_it.pb \
