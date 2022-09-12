@@ -6,13 +6,63 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/phoenix
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/phoenix/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/embms.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/embms.xml \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.2.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.1.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.2.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.3.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmtcm.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.1.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callcapability@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.1.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.1.so \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Codec_cal.acdb \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -702,41 +752,66 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    com.qualcomm.qti.dpm.api@1.0_system_ext \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.api@1.1 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.constants@2.1 \
     fm_helium \
-    lib-imsvideocodec \
-    lib-imsvt \
-    lib-imsvtextutils \
-    lib-imsvtutils \
     libaptXHD_encoder \
     libaptX_encoder \
-    libdiag_system \
-    libdpmctmgr \
-    libdpmfdmgr \
-    libdpmframework \
-    libdpmtcm \
     libfm-hci \
-    libimscamera_jni \
-    libimsmedia_jni \
-    vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.fm@1.0_system_ext \
-    vendor.qti.imsrtpservice@3.0_system_ext \
     CACertService \
     CneApp \
     IWlanService \
     SoterService \
     TimeService \
     PowerOffAlarm \
+    DeviceInfo \
+    ImsRcsService \
+    QtiTelephony \
     QtiTelephonyService \
+    embms \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     tcmclient \
     audiosphere \
     com.qti.dpmframework \
+    com.qualcomm.qti.imscmservice-V2.0-java \
+    com.qualcomm.qti.imscmservice-V2.1-java \
+    com.qualcomm.qti.imscmservice-V2.2-java \
+    com.qualcomm.qti.uceservice-V2.0-java \
+    com.qualcomm.qti.uceservice-V2.1-java \
+    com.quicinc.cne.api-V1.1-java \
+    com.quicinc.cne.constants-V1.0-java \
+    com.quicinc.cne.constants-V2.0-java \
+    com.quicinc.cne.constants-V2.1-java \
     dpmapi \
+    embmslibrary \
     qcrilhook \
     qti-telephony-common \
+    vendor.qti.hardware.data.cne.internal.api-V1.0-java \
+    vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
+    vendor.qti.hardware.data.connection-V1.0-java \
+    vendor.qti.hardware.data.connection-V1.1-java \
+    vendor.qti.hardware.data.dynamicdds-V1.0-java \
+    vendor.qti.hardware.data.iwlan-V1.0-java \
+    vendor.qti.hardware.data.qmi-V1.0-java \
+    vendor.qti.ims.callcapability-V1.0-java \
+    vendor.qti.ims.callinfo-V1.0-java \
+    vendor.qti.ims.connection-V1.0-java \
+    vendor.qti.ims.factory-V2.0-java \
+    vendor.qti.ims.factory-V2.1-java \
+    vendor.qti.ims.factory-V2.2-java \
+    vendor.qti.ims.rcsconfig-V1.0-java \
+    vendor.qti.ims.rcssip-V1.0-java \
+    vendor.qti.ims.rcssip-V1.1-java \
+    vendor.qti.ims.rcssip-V1.2-java \
+    vendor.qti.ims.rcsuce-V1.0-java \
+    vendor.qti.ims.rcsuce-V1.1-java \
+    vendor.qti.ims.rcsuce-V1.2-java \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service \
     adpl \
@@ -781,5 +856,4 @@ PRODUCT_PACKAGES += \
     thermal-engine \
     time_daemon \
     vppservice \
-    xtra-daemon \
-    dpmd
+    xtra-daemon
