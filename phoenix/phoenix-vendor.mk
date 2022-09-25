@@ -580,6 +580,7 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libkeymasterdeviceutils \
+    libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
     libloc_api_v02 \
